@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupRegistrationActivity"
+    android:background="@color/lightwhit">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightwhit"
+   >
+
+
+
+    <TextView
+        android:id="@+id/grptxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a Group"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/grpnametxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Group name"
+        app:layout_constraintTop_toBottomOf="@+id/grptxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        />
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/nomembrstxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="No of members"
+        app:layout_constraintTop_toBottomOf="@+id/grpnametxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        />
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/noofcopnstxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="No of coopens"
+        app:layout_constraintTop_toBottomOf="@+id/nomembrstxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        />
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/peramounttxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="coopen per amount"
+        app:layout_constraintTop_toBottomOf="@+id/noofcopnstxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/startdatetxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="starting date"
+        app:layout_constraintTop_toBottomOf="@+id/peramounttxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        android:drawableRight="@drawable/dateimg"
+
+        />
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/enddatetxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ending date"
+        app:layout_constraintTop_toBottomOf="@+id/startdatetxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        android:drawableRight="@drawable/dateimg"
+
+        />
+
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/pickdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="monthly collectiodate"
+        app:layout_constraintTop_toBottomOf="@+id/enddatetxt"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        android:drawableRight="@drawable/dateimg"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pickdate"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/darkpink"
+        android:text="REGISTER"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cashApp</string>
+    <string name="forgotpswd"><u>forgot password?</u> </string>
+    <string name="signup"><u>Sign Up</u></string>
+</resources>

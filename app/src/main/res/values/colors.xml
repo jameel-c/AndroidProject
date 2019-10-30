@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e7315a</color>
+    <color name="colorPrimaryDark">#CF2C51</color>
+    <color name="colorAccent">#CF2C51</color>
+    <color name="loginbtncolor">#3b4656</color>
+    <color name="colorTransparent">#00E7ADAD</color>
+    <color name="white">#ffffff</color>
+    <color name="darkpink">#a62542</color>
+    <color name="lightpink">#e7315a</color>
+    <color name="black">#000000</color>
+    <color name="lightwhit">#E5E5E5</color>
+    <color name="bgedttxt">#D1C9C9</color>
+
+</resources>
